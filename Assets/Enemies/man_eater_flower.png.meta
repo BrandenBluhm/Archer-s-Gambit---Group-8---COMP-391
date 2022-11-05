@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7733392201464128873
-    second: flowerLeft_1
+    second: flowerWalk_1
   - first:
       213: 5061293860092469308
-    second: flowerLeft_2
+    second: flowerWalk_2
   - first:
       213: -6315762149969910729
-    second: flowerLeft_3
+    second: flowerWalk_3
   - first:
       213: -2053005871384252650
-    second: flowerLeft_4
+    second: flowerAttack_1
   - first:
       213: -5440458520801299270
-    second: flowerLeft_5
+    second: flowerAttack_2
   - first:
       213: 2340572993119570465
-    second: flowerLeft_6
+    second: flowerAttack_3
   - first:
       213: 4589739794730693794
     second: flowerRight_1
@@ -82,7 +82,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flowerLeft_1
+      name: flowerWalk_1
       rect:
         serializedVersion: 2
         x: 39
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowerLeft_2
+      name: flowerWalk_2
       rect:
         serializedVersion: 2
         x: 166
@@ -169,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowerLeft_3
+      name: flowerWalk_3
       rect:
         serializedVersion: 2
         x: 295
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowerLeft_4
+      name: flowerAttack_1
       rect:
         serializedVersion: 2
         x: 422
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowerLeft_5
+      name: flowerAttack_2
       rect:
         serializedVersion: 2
         x: 549
@@ -232,7 +232,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowerLeft_6
+      name: flowerAttack_3
       rect:
         serializedVersion: 2
         x: 675
@@ -248,132 +248,6 @@ TextureImporter:
       bones: []
       spriteID: 12ac3c18cb26b7020800000000000000
       internalID: 2340572993119570465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flowerRight_1
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 27
-        width: 52
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a4b56c960802bf30800000000000000
-      internalID: 4589739794730693794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flowerRight_2
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 28
-        width: 52
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 826795ac9365f5c00800000000000000
-      internalID: 891526057450632744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flowerRight_3
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 28
-        width: 51
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51816ec2e0c29aba0800000000000000
-      internalID: -6077277782765332459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flowerRight_4
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 28
-        width: 63
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef68e97eb75951ef0800000000000000
-      internalID: -138039854165489922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flowerRight_5
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 27
-        width: 57
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00fc34f4f31729570800000000000000
-      internalID: 8471958365764046592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flowerRight_6
-      rect:
-        serializedVersion: 2
-        x: 677
-        y: 27
-        width: 56
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b41a303c15b0585e0800000000000000
-      internalID: -1908106421329485493
       vertices: []
       indices: 
       edges: []

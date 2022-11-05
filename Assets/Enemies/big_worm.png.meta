@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1605999779621927299
-    second: wormLeft_1
+    second: wormIdle_1
   - first:
       213: 4728774999393596502
-    second: wormLeft_2
+    second: wormIdle_2
   - first:
       213: -2029590176979818193
-    second: wormLeft_3
+    second: wormIdle_3
   - first:
       213: 4849967680635931130
-    second: wormLeft_4
+    second: wornAttack_1
   - first:
       213: -2476849790339031053
-    second: wormLeft_5
+    second: wormAttack_2
   - first:
       213: 7824663952050467694
-    second: wormLeft_6
+    second: wormAttack_3
   - first:
       213: 7767588036367303224
     second: wormRight_1
@@ -82,7 +82,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,70 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wormLeft_1
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 137
-        width: 30
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d76874a95b756b9e0800000000000000
-      internalID: -1605999779621927299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wormLeft_2
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 136
-        width: 31
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6547a9dcecbff9140800000000000000
-      internalID: 4728774999393596502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wormLeft_3
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 135
-        width: 29
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f29ee7dbc7275d3e0800000000000000
-      internalID: -2029590176979818193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wormLeft_4
+      name: wornAttack_1
       rect:
         serializedVersion: 2
         x: 212
@@ -211,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wormLeft_5
+      name: wormAttack_2
       rect:
         serializedVersion: 2
         x: 267
@@ -232,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wormLeft_6
+      name: wormAttack_3
       rect:
         serializedVersion: 2
         x: 335
@@ -253,11 +190,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wormRight_1
+      name: wormIdle_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 9
+        x: 18
+        y: 137
         width: 30
         height: 48
       alignment: 0
@@ -267,18 +204,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8324f352a240ccb60800000000000000
-      internalID: 7767588036367303224
+      spriteID: d76874a95b756b9e0800000000000000
+      internalID: -1605999779621927299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wormRight_2
+      name: wormIdle_2
       rect:
         serializedVersion: 2
         x: 81
-        y: 8
+        y: 136
         width: 31
         height: 45
       alignment: 0
@@ -288,18 +225,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f96a835779088a390800000000000000
-      internalID: -7806848566051690849
+      spriteID: 6547a9dcecbff9140800000000000000
+      internalID: 4728774999393596502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wormRight_3
+      name: wormIdle_3
       rect:
         serializedVersion: 2
-        x: 145
-        y: 7
+        x: 147
+        y: 135
         width: 29
         height: 45
       alignment: 0
@@ -309,71 +246,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b03d0557121b2e610800000000000000
-      internalID: 1649075170831291147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wormRight_4
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 7
-        width: 28
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9968372c933de71a0800000000000000
-      internalID: -6809773341508663655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wormRight_5
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 9
-        width: 37
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44759e83b0270a620800000000000000
-      internalID: 2783349962239989572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wormRight_6
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 9
-        width: 33
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b6d5869d409df250800000000000000
-      internalID: 5980094543130121909
+      spriteID: f29ee7dbc7275d3e0800000000000000
+      internalID: -2029590176979818193
       vertices: []
       indices: 
       edges: []

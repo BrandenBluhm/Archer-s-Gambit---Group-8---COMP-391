@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 292511346337569837
-    second: slimeLeft_1
+    second: slimeWalk_1
   - first:
       213: -6776676135277293862
-    second: slimeLeft_2
+    second: slimeWalk_2
   - first:
       213: 5879532933249936704
-    second: slimeLeft_3
+    second: slimeWalk_3
   - first:
       213: 1702944112137351692
-    second: slimeLeft_4
+    second: slimeWalk_4
   - first:
       213: 574139385759250185
-    second: slimeLeft_5
+    second: slimeAttack_1
   - first:
       213: -1071876908328471809
-    second: slimeLeft_6
+    second: slimeAttack_2
   - first:
       213: 7065398221910334755
-    second: slimeLeft_7
+    second: slimeAttack_3
   - first:
       213: 5088725752757704037
-    second: slimeLeft_8
+    second: slimeAttack_4
   - first:
       213: 3519091041362292632
     second: slimeRight_1
@@ -94,7 +94,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slimeLeft_1
+      name: slimeWalk_1
       rect:
         serializedVersion: 2
         x: 19
@@ -160,7 +160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slimeLeft_2
+      name: slimeWalk_2
       rect:
         serializedVersion: 2
         x: 81
@@ -181,7 +181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slimeLeft_3
+      name: slimeWalk_3
       rect:
         serializedVersion: 2
         x: 147
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slimeLeft_4
+      name: slimeWalk_4
       rect:
         serializedVersion: 2
         x: 211
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slimeLeft_5
+      name: slimeAttack_1
       rect:
         serializedVersion: 2
         x: 272
@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slimeLeft_6
+      name: slimeAttack_2
       rect:
         serializedVersion: 2
         x: 338
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slimeLeft_7
+      name: slimeAttack_3
       rect:
         serializedVersion: 2
         x: 403
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slimeLeft_8
+      name: slimeAttack_4
       rect:
         serializedVersion: 2
         x: 465
@@ -302,174 +302,6 @@ TextureImporter:
       bones: []
       spriteID: 56551846c19ce9640800000000000000
       internalID: 5088725752757704037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeRight_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 18
-        width: 26
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89fa8ac38a256d030800000000000000
-      internalID: 3519091041362292632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeRight_2
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 17
-        width: 29
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 368338cfa3ad0e0d0800000000000000
-      internalID: -3395474172157937565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeRight_3
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 18
-        width: 26
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4e92734bc3a53060800000000000000
-      internalID: 6932627294812020299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeRight_4
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 18
-        width: 27
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec87a39f6517b9a30800000000000000
-      internalID: 4223093693952456910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeRight_5
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 18
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65d780c9710b31760800000000000000
-      internalID: 7427473825912618326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeRight_6
-      rect:
-        serializedVersion: 2
-        x: 339
-        y: 18
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 190a1923b0db06510800000000000000
-      internalID: 1540438928351404177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeRight_7
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 18
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f39cafd5b76dd08f0800000000000000
-      internalID: -572565752260146881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slimeRight_8
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 17
-        width: 29
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac166893bbaf4a860800000000000000
-      internalID: 7540427358155989450
       vertices: []
       indices: 
       edges: []
