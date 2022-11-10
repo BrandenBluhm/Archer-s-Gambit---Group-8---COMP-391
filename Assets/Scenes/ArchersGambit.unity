@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 45423705}
   - component: {fileID: 45423709}
   - component: {fileID: 45423708}
+  - component: {fileID: 45423710}
   m_Layer: 0
   m_Name: Slime_3
   m_TagString: Untagged
@@ -336,6 +337,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.625, y: 1.3125}
   m_EdgeRadius: 0
+--- !u!114 &45423710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45423704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207846d092b09b8488015a836cfd23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 45423704}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &83215258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8081392910797297895, guid: 1d2f4ad27604b204fb66108d84543f11, type: 3}
@@ -423,6 +451,7 @@ GameObject:
   - component: {fileID: 161279472}
   - component: {fileID: 161279476}
   - component: {fileID: 161279475}
+  - component: {fileID: 161279477}
   m_Layer: 0
   m_Name: Slime_2
   m_TagString: Untagged
@@ -557,6 +586,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.625, y: 1.3125}
   m_EdgeRadius: 0
+--- !u!114 &161279477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161279471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207846d092b09b8488015a836cfd23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 161279471}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &243766058
 GameObject:
   m_ObjectHideFlags: 0
@@ -22895,6 +22951,7 @@ GameObject:
   - component: {fileID: 672445135}
   - component: {fileID: 672445134}
   - component: {fileID: 672445133}
+  - component: {fileID: 672445137}
   m_Layer: 0
   m_Name: Flower
   m_TagString: Untagged
@@ -23029,6 +23086,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &672445137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672445131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207846d092b09b8488015a836cfd23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 672445131}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &675751263
 GameObject:
   m_ObjectHideFlags: 0
@@ -27168,9 +27252,10 @@ GameObject:
   - component: {fileID: 874122967}
   - component: {fileID: 874122968}
   - component: {fileID: 874122969}
+  - component: {fileID: 874122970}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27255,9 +27340,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874122962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.55, y: -18.36, z: -0.6}
+  m_LocalPosition: {x: -57.55, y: -18.51, z: -0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2023769711}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27336,6 +27422,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinsText: {fileID: 243766060}
+--- !u!114 &874122970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874122962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021e586e973175e4e823f2c35cd82027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingItem: {fileID: 6384205376046709421, guid: 305fb64417588c149a5dee6dd2e4d8f9, type: 3}
+  shootingPoint: {fileID: 2023769711}
+  canShoot: 1
 --- !u!4 &895687689 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8081392910797297895, guid: 1d2f4ad27604b204fb66108d84543f11, type: 3}
@@ -27771,6 +27872,7 @@ GameObject:
   - component: {fileID: 1199434817}
   - component: {fileID: 1199434816}
   - component: {fileID: 1199434815}
+  - component: {fileID: 1199434819}
   m_Layer: 0
   m_Name: Bee
   m_TagString: Enemy
@@ -27905,6 +28007,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1199434819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199434813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207846d092b09b8488015a836cfd23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1199434813}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1246045888 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8081392910797297895, guid: 1d2f4ad27604b204fb66108d84543f11, type: 3}
@@ -28142,6 +28271,7 @@ GameObject:
   - component: {fileID: 1291298540}
   - component: {fileID: 1291298539}
   - component: {fileID: 1291298538}
+  - component: {fileID: 1291298542}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -28276,6 +28406,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1291298542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291298536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207846d092b09b8488015a836cfd23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1291298536}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1303382769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8081392910797297895, guid: 1d2f4ad27604b204fb66108d84543f11, type: 3}
@@ -28356,6 +28513,7 @@ GameObject:
   - component: {fileID: 1359001305}
   - component: {fileID: 1359001304}
   - component: {fileID: 1359001307}
+  - component: {fileID: 1359001308}
   m_Layer: 0
   m_Name: Bee_2
   m_TagString: Untagged
@@ -28490,6 +28648,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1359001308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359001302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207846d092b09b8488015a836cfd23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1359001302}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1391499538
 GameObject:
   m_ObjectHideFlags: 0
@@ -29002,6 +29187,7 @@ GameObject:
   - component: {fileID: 1705171175}
   - component: {fileID: 1705171174}
   - component: {fileID: 1705171173}
+  - component: {fileID: 1705171177}
   m_Layer: 0
   m_Name: Flower_2
   m_TagString: Untagged
@@ -29136,6 +29322,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1705171177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705171171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207846d092b09b8488015a836cfd23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1705171171}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1760921586
 GameObject:
   m_ObjectHideFlags: 0
@@ -44591,6 +44804,36 @@ Transform:
   m_Father: {fileID: 833993339}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2023769710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2023769711}
+  m_Layer: 0
+  m_Name: ShootingPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2023769711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023769710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.99, y: -0.45, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 874122965}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2042968685
 GameObject:
   m_ObjectHideFlags: 0
@@ -44634,6 +44877,7 @@ GameObject:
   - component: {fileID: 2119252134}
   - component: {fileID: 2119252138}
   - component: {fileID: 2119252137}
+  - component: {fileID: 2119252139}
   m_Layer: 0
   m_Name: Bee_3
   m_TagString: Untagged
@@ -44768,6 +45012,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.4375}
   m_EdgeRadius: 0
+--- !u!114 &2119252139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119252133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207846d092b09b8488015a836cfd23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2119252133}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &2133938647 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8081392910797297895, guid: 1d2f4ad27604b204fb66108d84543f11, type: 3}
