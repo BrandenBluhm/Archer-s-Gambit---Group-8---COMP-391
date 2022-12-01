@@ -18,13 +18,12 @@ public class ItemCollector : MonoBehaviour
             coins++;
             coinsText.text = "   " + coins;
         }
+        
         if (collision.gameObject.CompareTag("Arrow"))
         {
             Destroy(collision.gameObject);
             arrows = arrows + 5;
             arrowsText.text = "      " + arrows;
         }
-
-
     }
 }
