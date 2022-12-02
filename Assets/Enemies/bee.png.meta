@@ -20,6 +20,24 @@ TextureImporter:
   - first:
       213: 7839047841483237189
     second: beeAttack_3
+  - first:
+      213: -5026522528003214908
+    second: beeMove_1
+  - first:
+      213: -4678009585620413095
+    second: beeAttack_1
+  - first:
+      213: 4890310393690923865
+    second: beeAttack_2
+  - first:
+      213: 2854728784368420264
+    second: beeMove_2
+  - first:
+      213: -5312976987433548582
+    second: beeMove_3
+  - first:
+      213: -5023576613808985626
+    second: beeAttack_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,22 +127,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: beeFly_1
+      name: beeMove_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 73
+        x: 7
+        y: 9
         width: 16
-        height: 23
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d77c7a7b4b3aa6ad0800000000000000
-      internalID: -2708172229339265155
+      spriteID: 4c1bed674643e3ab0800000000000000
+      internalID: -5026522528003214908
       vertices: []
       indices: 
       edges: []
@@ -133,19 +151,19 @@ TextureImporter:
       name: beeAttack_1
       rect:
         serializedVersion: 2
-        x: 105
-        y: 74
+        x: 102
+        y: 10
         width: 17
-        height: 22
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90f204e88fbb57a20800000000000000
-      internalID: 3059558198080974601
+      spriteID: 9551939211f541fb0800000000000000
+      internalID: -4678009585620413095
       vertices: []
       indices: 
       edges: []
@@ -154,61 +172,61 @@ TextureImporter:
       name: beeAttack_2
       rect:
         serializedVersion: 2
-        x: 135
-        y: 73
+        x: 133
+        y: 9
         width: 20
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08eb48d9b563cc910800000000000000
-      internalID: 1858920513309818496
+      spriteID: 9532951a46fddd340800000000000000
+      internalID: 4890310393690923865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beeFly_2
+      name: beeMove_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 72
+        x: 40
+        y: 8
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b88da1df1c21dd80800000000000000
-      internalID: -8227746529055766345
+      spriteID: 8a5cc5254b80e9720800000000000000
+      internalID: 2854728784368420264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beeFly_3
+      name: beeMove_3
       rect:
         serializedVersion: 2
-        x: 74
-        y: 71
+        x: 72
+        y: 7
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffc24df118b21e550800000000000000
-      internalID: 6188275196568546559
+      spriteID: ad4c23c44938446b0800000000000000
+      internalID: -5312976987433548582
       vertices: []
       indices: 
       edges: []
@@ -217,19 +235,19 @@ TextureImporter:
       name: beeAttack_3
       rect:
         serializedVersion: 2
-        x: 170
-        y: 72
+        x: 167
+        y: 8
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 547a6e09a74e9cc60800000000000000
-      internalID: 7839047841483237189
+      spriteID: 6e9a4ff8faba84ab0800000000000000
+      internalID: -5023576613808985626
       vertices: []
       indices: 
       edges: []
